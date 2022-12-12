@@ -1,0 +1,8 @@
+
+This script assumes that you are using a Raspberry Pi and have the RPi.GPIO library installed. It also assumes that you have connected your RGB lights to the specified GPIO pins.
+
+To use this script, save it to a file (e.g. turn_off_rgb.py) and run it using the python command. For example:
+
+python turn_off_rgb.py
+
+This will turn off your RGB lights. If you want to turn them on again, you can modify the script to set the output pins to True instead of False.

@@ -1,11 +1,9 @@
-This script assumes that you have connected your RGB lights to the specified pins.
+This script uses the ctypes library to access the Windows API directly and control the GPIO pins on a Windows machine. It does not use the win32api library, but it provides the same functionality.
 
 To use this script, save it to a file (e.g. turn_off_rgb.py) and run it using the python command. For example:
 
 python turn_off_rgb.py
 
-This will turn off your RGB lights. If you want to turn them on again, you can modify the script to set the output pins to True instead of False.
+This will turn off your RGB lights. If you want to turn them on again, you can modify the script to set the output pins to 1 instead of 0.
 
-Note: You may need to install the win32api library in order to use this script. You can do this by running the following command:
-
-pip install win32api
+Note: This script uses advanced features of the Windows API and is intended for advanced users. It is not recommended for beginners. You may need to consult the Windows API documentation for more information about how to use these features.
